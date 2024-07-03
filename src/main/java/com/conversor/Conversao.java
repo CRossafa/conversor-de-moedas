@@ -1,4 +1,4 @@
-package alura;
+package com.conversor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

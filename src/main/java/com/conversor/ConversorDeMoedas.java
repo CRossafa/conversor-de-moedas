@@ -1,4 +1,4 @@
-package alura;
+package com.conversor;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -33,7 +33,7 @@ public class ConversorDeMoedas {
         Conversao conversao = new Conversao(converterDe, converterPara, quantidade, resultado);
         historico.add(conversao);
 
-        System.out.println("O resultado da sua conversão é: " + resultado + " " + converterPara);
+        System.out.println("O resultado da sua conversão é: " + resultado + " " + converterPara.toUpperCase());
     }
 
     public void exibirHistorico() {

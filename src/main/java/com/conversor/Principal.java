@@ -1,4 +1,4 @@
-package alura;
+package com.conversor;
 
 import java.io.IOException;
 import java.util.Scanner;

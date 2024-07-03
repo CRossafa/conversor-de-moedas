@@ -1,4 +1,4 @@
-package alura;
+package com.conversor;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

@@ -6,12 +6,7 @@ Neste projeto, você encontrará um Conversor de Moedas desenvolvido em Java, qu
 
 ## Configuração
 
-Antes de iniciar, é necessário configurar uma API key da ExchangeRate-API como variável de ambiente no IntelliJ IDEA. Isso permite que a aplicação acesse as taxas de câmbio atualizadas.
-
-Para configurar a variável de ambiente:
-1. Abra o IntelliJ IDEA.
-2. Vá para `Run` > `Edit Configurations...`.
-3. Na janela de configurações, adicione `-my_exchange_rate_api_key=SUAPIKEYAQUI` nas `VM options`, substituindo `SUAPIKEYAQUI` pela sua API key.
+Antes de iniciar, é necessário registrar no site da API pra receber uma API key, com essa chave configurar uma variável de ambiente e usar no seu projeto.
 
 ## Instalação e Uso
 
@@ -24,11 +19,6 @@ Para configurar a variável de ambiente:
 
 Após iniciar a aplicação, você será guiado por um menu interativo onde poderá escolher as moedas de conversão e o valor a ser convertido. As taxas de câmbio serão obtidas em tempo real através da ExchangeRate-API, garantindo precisão nas conversões.
 
-
-## Histórico de Conversões
-
-As conversões realizadas são registradas automaticamente e podem ser acessadas através da opção de exibir o histórico no menu.
-
 ## Demonstração em Vídeo
 
 Assista ao vídeo demonstrativo do funcionamento do projeto no console:
@@ -37,6 +27,5 @@ Assista ao vídeo demonstrativo do funcionamento do projeto no console:
 
 No vídeo, você verá como realizar conversões de moeda, acessar o histórico de conversões e interagir com o menu interativo da aplicação.
 
-## Contribuições e Licença
-
-Este projeto está licenciado sob a Licença MIT. Contribuições são bem-vindas. Para contribuir, crie um fork do repositório e envie um pull request.
+## Contribuições
+Contribuições são bem-vindas. Para contribuir, crie um fork do repositório e envie um pull request.
